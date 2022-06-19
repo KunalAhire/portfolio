@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FORM VALIDATION</h1>
+    <div class="formCenter">
+        <form id="form">
+            <label for="nametxt">Name</label><br>
+            <input class="inputtxt" type="text" id="username" placeholder="Please Enter Name" required><br>
+            <p id="username-error" class="Error-message">Please Enter Correct/Full Name</p>
+
+            <label for="Email">Email</label><br>
+            <input class="inputtxt" type="email" id="Email" placeholder="Please Enter Email Address" required><br>
+            <p id="email-error" class="Error-message">Please Enter Correct/Full Email</p>
+
+            <label for="phone">Phone Number</label><br>
+            <input class="inputtxt" type="text" id="phone" placeholder="Please Enter Phone Number" required><br>
+            <p id="phone-error" class="Error-message">Please Enter Correct Phone Number</p>
+
+            <label for="password">password</label><br>
+            <input class="inputtxt" type="password" id="password" placeholder="Please Enter Password" required><br>
+
+            <input type="submit" id="submit" class="submitbtn">
+        </form>
+    </div>
+    <div class="end">&copyDevoloped by Kunal ahire</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

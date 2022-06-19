@@ -1,0 +1,413 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url('http://fonts.cdnfonts.com/css/kids-text-display-2');
+@import url('http://fonts.cdnfonts.com/css/dinattallie-personal-use-only');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'KIDS Display', sans-serif;
+    font-family: 'KIDS Text', sans-serif;
+}
+
+.header {
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    background-image: url("Dark_Abstract.jpg");
+    /* background-color: #1313ca;*/
+    background-position: center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-menu {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% auto;
+    /*margin-left: 50px;*/
+}
+
+.nav-menu .logo {
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.nav-menu .menu ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+.nav-menu .menu ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 1em 1.5em;
+    line-height: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-menu .menu li a:hover {
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/*banner*/
+
+.banner {
+    height: 400px;
+    width: 60%;
+    text-align: center;
+    margin: 13% auto;
+    font-family: 'Dinattallie Personal Use Only', sans-serif;
+
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.banner p {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 200;
+    word-spacing: 1px;
+}
+
+.banner a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin: 90px auto;
+    display: block;
+    font-weight: bold;
+    border: 2px solid #fff;
+    width: 27%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+
+.container1 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.section-head {
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.section h3 {
+    font-size: 2rem;
+}
+
+.lead {
+    font-size: 1.3rem;
+}
+
+:root {
+    --primary-color: #b90415;
+    --primary-color-hover: #d3071b;
+    --light-color: #f4f4f4;
+
+}
+
+.btn {
+    padding: 1rem;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 19px;
+
+}
+
+.btn-primary {
+    background: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background: var(--primary-color-hover);
+}
+
+.text-lite {
+    color: var(--light-color);
+    margin-top: 0.5em;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-store {
+    margin: 0.8em 10px;
+    cursor: pointer;
+
+}
+
+.app-store:hover {
+    width: 204px;
+}
+
+/*End About*/
+/*skills start*/
+
+.card {
+    width: 40%;
+    height: 130px;
+    display: inline-block;
+    background-color: #252529;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+
+}
+
+.heading {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.skills {
+    text-align: right;
+    padding-right: 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    color: black;
+}
+
+.html {
+    background-color: red;
+    width: 90%;
+}
+
+.css {
+    background-color: orange;
+    width: 80%;
+}
+
+.javaScript {
+    background-color: yellow;
+    width: 75%;
+}
+
+.React {
+    background-color: green;
+    width: 65%;
+}
+
+.jqery {
+    background-color: blue;
+    width: 50%;
+}
+
+.Bootstrap {
+    background-color: violet;
+    width: 50%
+}
+
+/*Skills End*/
+/*Project start*/
+.container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    align-items: center;
+}
+
+.text {
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.text p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 4px;
+}
+
+.main {
+    width: 90%;
+    height: auto;
+    margin: 30px 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.single {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.single i {
+    font-size: 45px;
+}
+
+.single p {
+    padding-top: 40px;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    line-height: 100%;
+    font-size: 14px;
+}
+
+.single a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    width: 45%;
+    height: 55px;
+    line-height: 55px;
+    border: 2px solid black;
+    display: block;
+    border-radius: 5px;
+    margin: 40px auto;
+}
+
+.single a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+/*Projects end*/
+/*Contact start*/
+.rounded-socical-buttons {
+    text-align: center;
+
+}
+
+.rounded-socical-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    ;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2rem;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.rounded-socical-buttons .social-button:hover,
+.rounded-socical-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.contact .fa::before {
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.contact li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 1em;
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.cont {
+    text-align: center;
+}
+
+@media screen and (max-width:817px) {
+    .banner h1{
+        margin-top: 40%;
+        font-size: 40px;
+    }
+    .banner p{
+        margin-top: 20%;
+        font-size: 20px;
+    }
+
+    .banner a {
+        margin-top: 30%;
+        display: inline-block;
+        font-size: 10px;
+        margin: 90px auto;
+        width: 80%;
+    }
+
+    .card {
+        width: 100%;
+        height: 130px;
+        display: inline-block;
+        background-color: #252529;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10px;
+
+    }
+
+    #featureList, .nav-menu{
+        display: none;
+    }
+
+    .single {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
