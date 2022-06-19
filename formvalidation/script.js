@@ -31,7 +31,7 @@ phoneNo.addEventListener('input',function(e){
 });
 
 email.addEventListener('input',function(e){
-    var pattern = /^(www\.)[\w_\.]+[@][\w]+[\.][a-zA-Z]{2,3}$/;
+    var pattern = /^[\w_\.]+[@][\w]+[\.][a-zA-Z]{2,3}$/;
     var currentValue = e.target.value;
     var valid = pattern.test(currentValue);
     
