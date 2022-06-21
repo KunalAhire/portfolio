@@ -29,7 +29,7 @@
     color: aliceblue;
     transform: translate(-50%,-50%);
     font-size: 20px;
-    display: none;
+    
 }
 .heartRate{
     position: absolute;
@@ -38,6 +38,7 @@
     color: aliceblue;
     transform: translate(-50%,-50%);
     font-size: 40px;
+    display: none;
     
 }
 .heartRate > img{
@@ -104,4 +105,48 @@
 .end{
     font-size: 20px;
     text-align: center;
+}
+
+@media screen and (min-width:700px) {
+    .Container{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .left{width: 50%;}
+    .right{
+        text-align: left;
+        width: 50%;
+    }
+    .right h1{
+        font-size: 40px;
+    }
+    .right p{
+       padding-right: 10%;
+       padding-left: 0;
+       font-size: 20px;
+    }
+    .colorsHeader{
+        text-align: left;
+    }
+    .colorsHeader{
+        margin-left: 0%;
+        margin-bottom:30px ;
+    
+    }
+    .Cbtn{
+        margin-left: 35%;
+        margin-bottom:20px ;
+    
+    }
+    .leftBtn{
+        padding: 15px 30px;
+    }
+    .featuresHeader{
+        margin-top: 30px;
+    }
+    .FeatureBtn{
+        margin-top: 20px;
+        
+    }
 }
