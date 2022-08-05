@@ -1,6 +1,6 @@
-/*import info from './util.mjs';*/
 let featureList = document.getElementById('featureList');
 let logo = document.getElementById('logo');
+const LinkedIn = document.getElementById('linkedIn');
 
 var info = {
     "name" : 'Kunal Ahire',
@@ -27,7 +27,9 @@ var info = {
             "link":"#Contact"
         }
     ],
-    "Type" : 'module'
+    "Social_Media":{
+        "LinkedIn" :"https://www.linkedin.com/in/kunal-ahire-44388722a/"
+    }
 };
 
 logo.innerHTML = info.name;
@@ -41,4 +43,4 @@ info.feature.map((item, pos) => {
     newList.appendChild(anchor);
     featureList.appendChild(newList);
 })
-
+LinkedIn.setAttribute("href",info.Social_Media.LinkedIn)
