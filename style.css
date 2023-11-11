@@ -80,6 +80,14 @@ body {
     /* margin: 13% auto; */
     font-family: 'Dinattallie Personal Use Only', sans-serif;
 }
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20%;
+}
+.column{
+    margin: 0 5px;
+}
 
 .banner{
     display: flex;
@@ -128,25 +136,7 @@ body {
     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 /* Define the two columns */
-.column {
-    float: left;
-    width: 50%;
-    padding: 20px;
-  }
 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
 
 .container1 {
     width: 100%;
@@ -478,4 +468,21 @@ a {
         width: 90%;
     }
 
+}
+
+@media screen and (max-width:600px) {
+    .row{
+       display: flex;
+       flex-direction: column;
+       padding: 0px;
+    }
+    .column{
+        margin: 0 auto;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .bannerPhoto > img{
+        max-width: 250px;
+    }
 }
